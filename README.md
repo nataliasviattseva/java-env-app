@@ -66,6 +66,12 @@ To check code style consistency:
 mvn checkstyle:check
 ```
 
+Generate Checkstyle Report:
+```sh
+mvn checkstyle:checkstyle
+```
+The report will be generated in `target/site/checkstyle.html`.
+
 ### Generate JaCoCo Report
 To generate a test coverage report:
 ```sh
